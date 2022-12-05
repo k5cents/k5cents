@@ -1,0 +1,47 @@
+---
+title: "Kiernan Nicholls"
+links:
+  - label: LinkedIn
+    url: "https://www.linkedin.com/in/kiernann/"
+  - label: Twitter
+    url: "https://twitter.com/kiernxn"
+  - label: GitHub
+    url: "https://github.com/kiernann/"
+  - label: Email
+    url: "mailto:kiernan.nicholls@gmail.com"
+output:
+  postcards::solana
+---
+
+```{css, echo=FALSE}
+body {
+  background-color: white;
+  color: black;
+}
+```
+
+I am a political scientist with experience in opinion polling and data
+management. I graduated with a Master of Arts in Political Science from
+[American University][au] in 2019. Since then, I've worked in polling for the
+[DCCC][dccc] and data analytics for the non-profit [Investigative Reporting
+Workshop][irw].
+
+I live in the District of Columbia but was born in raised in Vermont, where my
+love for the environment started. My other interests include open-source R
+coding and playing amateur poker.
+
+## Projects
+
+* [`/models-markets`][mm] - Comparing probabilistic predictions of elections
+* [`/campfin`][campfin] - Exploring and normalizing campaign finance data
+* [`/metro`][metro] - Requesting WMATA public transit data from an API
+* [`/fflr`][fflr] - Requesting ESPN fantasy football data from an API
+
+[au]: https://www.american.edu/
+[dccc]: https://dccc.org/
+[irw]: https://investigativereportingworkshop.org/
+[tap]: https://publicaccountability.org/
+[mm]: https://github.com/kiernann/models-markets
+[campfin]: https://github.com/irworkshop/campfin
+[metro]: https://github.com/kiernann/metro
+[fflr]: https://github.com/kiernann/fflr
