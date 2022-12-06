@@ -1,5 +1,6 @@
 ---
 title: "Kiernan Nicholls"
+image: "avi.png"
 links:
   - label: LinkedIn
     url: "https://www.linkedin.com/in/kiernann/"
@@ -19,6 +20,8 @@ body {
   color: black;
 }
 ```
+
+## Bio
 
 I am a political scientist with experience in opinion polling and data
 management. I graduated with a Master of Arts in Political Science from
