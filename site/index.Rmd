@@ -2,6 +2,8 @@
 title: "Kiernan Nicholls"
 image: "avi.png"
 links:
+  - label: Résumé
+    url: "https://my.indeed.com/p/kiernann-y2a69w3"
   - label: LinkedIn
     url: "https://www.linkedin.com/in/kiernann/"
   - label: Twitter
@@ -26,12 +28,11 @@ body {
 I am a political scientist with experience in opinion polling and data
 management. I graduated with a Master of Arts in Political Science from
 [American University][au] in 2019. Since then, I've worked in polling for the
-[DCCC][dccc] and data analytics for the non-profit [Investigative Reporting
+[DCCC][dccc] and data analysis for the non-profit [Investigative Reporting
 Workshop][irw].
 
-I live in the District of Columbia but was born in raised in Vermont, where my
-love for the environment started. My other interests include open-source R
-coding and playing amateur poker.
+I live in the District of Columbia but was born and raised in Vermont. My other
+interests include open-source R coding and playing poker.
 
 ## Projects
 
