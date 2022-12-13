@@ -6,10 +6,12 @@ links:
     url: "https://my.indeed.com/p/kiernann-y2a69w3"
   - label: LinkedIn
     url: "https://www.linkedin.com/in/kiernann/"
-  - label: Twitter
-    url: "https://twitter.com/kiernxn"
   - label: GitHub
     url: "https://github.com/kiernann/"
+  - label: Twitter
+    url: "https://twitter.com/kiernxn"
+  - label: Mastodon
+    url: "https://mastodon.social/@kiernan"
   - label: Email
     url: "mailto:kiernan.nicholls@gmail.com"
 output:
@@ -41,6 +43,8 @@ interests include open-source R coding and playing poker.
 * [`/metro`][metro] - Requesting WMATA public transit data from an API
 * [`/fflr`][fflr] - Requesting ESPN fantasy football data from an API
 
+<!--Begin References-->
+
 [au]: https://www.american.edu/
 [dccc]: https://dccc.org/
 [irw]: https://investigativereportingworkshop.org/
@@ -49,3 +53,7 @@ interests include open-source R coding and playing poker.
 [campfin]: https://github.com/irworkshop/campfin
 [metro]: https://github.com/kiernann/metro
 [fflr]: https://github.com/kiernann/fflr
+
+<!--End References-->
+
+<a rel="me" href="https://mastodon.social/@kiernan"></a>
