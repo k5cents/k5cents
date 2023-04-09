@@ -2,17 +2,12 @@
 title: "Kiernan Nicholls"
 image: "avi.png"
 links:
-  - label: Résumé
-    url: "https://my.indeed.com/p/kiernann-y2a69w3"
   - label: LinkedIn
     url: "https://www.linkedin.com/in/kiernann/"
   - label: GitHub
     url: "https://github.com/kiernann/"
   - label: Twitter
     url: "https://twitter.com/kiernxn"
-  - label: Mastodon
-    url: >-
-      https://mastodon.social/%40kiernan
   - label: Email
     url: "mailto:kiernan.nicholls@gmail.com"
 output:
@@ -28,14 +23,10 @@ body {
 
 ## Bio
 
-I am a political scientist with experience in opinion polling and data
-management. I graduated with a Master of Arts in Political Science from
-[American University][au] in 2019. Since then, I've worked in polling for the
-[DCCC][dccc] and data analysis for the non-profit [Investigative Reporting
-Workshop][irw].
-
-I live in the District of Columbia but was born and raised in Vermont. My other
-interests include open-source R coding and playing poker.
+I am currently working as an analyst at [Catalist] in Washington, DC. I
+graduated with a Master of Arts in Political Science from [American University].
+I've worked in polling for the [DCCC] and data collection for the non-profit
+[Investigative Reporting Workshop].
 
 ## Projects
 
@@ -46,9 +37,10 @@ interests include open-source R coding and playing poker.
 
 <!--Begin References-->
 
-[au]: https://www.american.edu/
-[dccc]: https://dccc.org/
-[irw]: https://investigativereportingworkshop.org/
+[Catalist]: https://catalist.us/
+[American University]: https://www.american.edu/
+[DCCC]: https://dccc.org/
+[Investigative Reporting Workshop]: https://investigativereportingworkshop.org/
 [tap]: https://publicaccountability.org/
 [mm]: https://github.com/kiernann/models-markets
 [campfin]: https://github.com/irworkshop/campfin
