@@ -23,9 +23,9 @@ body {
 
 ## Bio
 
-I am currently working as an analyst at [Catalist] in Washington, DC. I
-graduated with a Master of Arts in Political Science from [American University].
-I've worked in polling for the [DCCC] and data collection for the non-profit
+I am working as an analyst at [Catalist] in Washington, DC. I graduated with a
+Master's degree in Political Science from [American University]. I've worked in
+polling for the [DCCC] and data collection for the non-profit 
 [Investigative Reporting Workshop].
 
 ## Projects
