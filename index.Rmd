@@ -3,7 +3,7 @@ title: "Kiernan Nicholls"
 image: "avi.png"
 links:
   - label: LinkedIn
-    url: "https://www.linkedin.com/in/kiernann/"
+    url: "https://www.linkedin.com/in/k5cents/"
   - label: GitHub
     url: "https://github.com/k5cents/"
   - label: Twitter
