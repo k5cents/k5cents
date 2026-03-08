@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kiernan Nicholls</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg: #ffffff;
+      --fg: #1a1a1a;
+      --muted: #555;
+      --accent: #2563eb;
+      --border: #e5e7eb;
+      --tag-bg: #f3f4f6;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #0f0f0f;
+        --fg: #e8e8e8;
+        --muted: #999;
+        --accent: #60a5fa;
+        --border: #2a2a2a;
+        --tag-bg: #1e1e1e;
+      }
+    }
+
+    body {
+      font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace;
+      background: var(--bg);
+      color: var(--fg);
+      line-height: 1.6;
+      font-size: 14px;
+      padding: 3rem 1.5rem;
+      max-width: 680px;
+      margin: 0 auto;
+    }
+
+    /* ── Header ── */
+    header {
+      display: flex;
+      align-items: flex-start;
+      gap: 2.5rem;
+      margin-bottom: 2.5rem;
+    }
+
+    .avatar {
+      width: 110px;
+      height: 110px;
+      border-radius: 50%;
+      object-fit: cover;
+      flex-shrink: 0;
+      border: 2px solid var(--border);
+    }
+
+    .header-text h1 {
+      font-size: 1.75rem;
+      font-weight: 700;
+      letter-spacing: -0.5px;
+      margin-bottom: 0.5rem;
+    }
+
+    .header-text p.title {
+      color: var(--muted);
+      margin-bottom: 1rem;
+      font-size: 0.85rem;
+    }
+
+    /* ── Link buttons ── */
+    .links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+    }
+
+    .links a {
+      display: inline-block;
+      padding: 0.3rem 0.75rem;
+      border: 1px solid var(--border);
+      border-radius: 4px;
+      color: var(--fg);
+      text-decoration: none;
+      font-size: 0.8rem;
+      transition: border-color 0.15s, color 0.15s;
+    }
+
+    .links a:hover {
+      border-color: var(--accent);
+      color: var(--accent);
+    }
+
+    /* ── Sections ── */
+    section {
+      margin-bottom: 2.25rem;
+    }
+
+    h2 {
+      font-size: 1rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--muted);
+      margin-bottom: 0.85rem;
+      padding-bottom: 0.4rem;
+      border-bottom: 1px solid var(--border);
+    }
+
+    p {
+      color: var(--fg);
+      font-size: 0.875rem;
+      line-height: 1.75;
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    /* ── Project list ── */
+    .projects {
+      list-style: none;
+      display: grid;
+      grid-template-columns: max-content 1fr;
+      gap: 0.5rem 1.25rem;
+      font-size: 0.875rem;
+    }
+
+    .projects li {
+      display: contents;
+    }
+
+    .projects li .proj-name {
+      color: var(--accent);
+      font-weight: 600;
+      white-space: nowrap;
+      text-align: right;
+    }
+
+    .projects li .proj-desc {
+      color: var(--muted);
+    }
+
+    /* ── Skills ── */
+    .tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.4rem;
+    }
+
+    .tag {
+      background: var(--tag-bg);
+      border: 1px solid var(--border);
+      border-radius: 3px;
+      padding: 0.2rem 0.5rem;
+      font-size: 0.78rem;
+      color: var(--muted);
+    }
+
+    /* ── Footer ── */
+    footer {
+      margin-top: 3rem;
+      padding-top: 1.5rem;
+      border-top: 1px solid var(--border);
+      font-size: 0.78rem;
+      color: var(--muted);
+    }
+
+    @media (max-width: 500px) {
+      header { flex-direction: column-reverse; gap: 1.25rem; }
+      .avatar { width: 80px; height: 80px; }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="header-text">
+      <h1>Kiernan Nicholls</h1>
+      <p class="title">Data Analyst · Political Data · Vermont</p>
+      <nav class="links">
+        <a href="https://www.linkedin.com/in/k5cents/">LinkedIn</a>
+        <a href="https://github.com/k5cents/">GitHub</a>
+        <a href="mailto:k5cents@gmail.com">Email</a>
+      </nav>
+    </div>
+    <img class="avatar" src="avi.png" alt="Kiernan Nicholls">
+  </header>
+
+  <section>
+    <h2>Bio</h2>
+    <p>
+      At <a href="https://catalist.us/">Catalist</a>, I work across analytics, data
+      engineering, and modeling — from BigQuery pipelines and voter file infrastructure
+      to MRP polling and election research like
+      <a href="https://catalist.us/whathappened2024/">What Happened</a>.
+      I have a Master's in Political Science from
+      <a href="https://www.american.edu/">American University</a>.
+    </p>
+  </section>
+
+  <section>
+    <h2>Projects</h2>
+    <ul class="projects">
+      <li>
+        <a class="proj-name" href="https://catalist.us/whathappened2024/">/what-happened</a>
+        <span class="proj-desc">Interactive visualizations for Catalist's 2024 post-election report</span>
+      </li>
+      <li>
+        <a class="proj-name" href="https://k5cents.github.io/gluedown/">/gluedown</a>
+        <span class="proj-desc">R package for rendering markdown with glue-style string interpolation</span>
+      </li>
+      <li>
+        <a class="proj-name" href="https://k5cents.github.io/fflr/">/fflr</a>
+        <span class="proj-desc">Reverse-engineered ESPN API for fantasy football data</span>
+      </li>
+      <li>
+        <a class="proj-name" href="https://k5cents.github.io/usa/">/usa</a>
+        <span class="proj-desc">Facts and figures about the United States</span>
+      </li>
+      <li>
+        <a class="proj-name" href="https://k5cents.github.io/metro/">/metro</a>
+        <span class="proj-desc">Full coverage of the WMATA public transit API</span>
+      </li>
+      <li>
+        <span class="proj-name">/homelab</span>
+        <span class="proj-desc">Self-hosted home network: Docker services, ZFS storage, ARM devices</span>
+      </li>
+      <li>
+        <a class="proj-name" href="https://github.com/k5cents/models-markets">/models-markets</a>
+        <span class="proj-desc">Grad school comparison of FiveThirtyEight forecasts vs. PredictIt markets (2018)</span>
+      </li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Tools</h2>
+    <div class="tags">
+      <span class="tag">R</span>
+      <span class="tag">SQL</span>
+      <span class="tag">BigQuery</span>
+      <span class="tag">Airflow</span>
+      <span class="tag">ggplot2</span>
+      <span class="tag">Python</span>
+      <span class="tag">Linux</span>
+      <span class="tag">Docker</span>
+      <span class="tag">Bash</span>
+    </div>
+  </section>
+
+  <footer>
+    <a rel="me" href="https://mastodon.social/@kiernan"></a>
+    k5cents.com
+  </footer>
+
+</body>
+</html>
