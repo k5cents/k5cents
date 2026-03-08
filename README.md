@@ -1,30 +1,25 @@
-I'm an analyst at [Catalist], where I work on polling and modeling voter
-behavior in the cloud. I have a Master's degree in Political Science from
-[American University], where I studied the legislative process and predicting
-elections. I've worked in polling for the [DCCC] and data acquisition for the
-non-profit [Investigative Reporting Workshop].
+# Kiernan Nicholls
+
+**Data Analyst · Political Data · Vermont**
+
+[LinkedIn](https://www.linkedin.com/in/k5cents/) · [GitHub](https://github.com/k5cents/) · [Email](mailto:k5cents@gmail.com)
+
+---
+
+At [Catalist](https://catalist.us/), I work across analytics, data engineering, and modeling — from BigQuery pipelines and voter file infrastructure to MRP polling and election research like [What Happened](https://catalist.us/whathappened2024/). I have a Master's in Political Science from [American University](https://www.american.edu/).
 
 ## Projects
 
-* [`/models-markets`][mm] - Comparing probabilistic predictions of elections
-* [`/campfin`][campfin] - Exploring and normalizing campaign finance data
-* [`/metro`][metro] - Requesting WMATA public transit data from an API
-* [`/fflr`][fflr] - Requesting ESPN fantasy football data from an API
-* [`/usa`][usa] - New-ish facts and figures about the United States
-* [`/k5`][k5] - Personal package for interactive programming
+| | |
+|--:|:--|
+| [/what-happened](https://catalist.us/whathappened2024/) | Interactive visualizations for Catalist's 2024 post-election report |
+| [/gluedown](https://k5cents.github.io/gluedown/) | R package for rendering markdown with glue-style string interpolation |
+| [/fflr](https://k5cents.github.io/fflr/) | Reverse-engineered ESPN API for fantasy football data |
+| [/usa](https://k5cents.github.io/usa/) | Facts and figures about the United States |
+| [/metro](https://k5cents.github.io/metro/) | Full coverage of the WMATA public transit API |
+| /homelab | Self-hosted home network: Docker services, ZFS storage, ARM devices |
+| [/models-markets](https://github.com/k5cents/models-markets) | Grad school comparison of FiveThirtyEight forecasts vs. PredictIt markets (2018) |
 
-<!--Begin References-->
+## Tools
 
-[Catalist]: https://catalist.us/
-[American University]: https://www.american.edu/
-[DCCC]: https://dccc.org/
-[Investigative Reporting Workshop]: https://investigativereportingworkshop.org/
-[tap]: https://publicaccountability.org/
-[mm]: https://github.com/kiernann/models-markets
-[campfin]: https://github.com/irworkshop/campfin
-[metro]: https://k5cents.github.io/metro/
-[fflr]: https://k5cents.github.io/fflr/
-[usa]: https://k5cents.github.io/usa/
-[k5]: https://k5cents.github.io/k5/
-
-<!--End References-->
+`R` `SQL` `BigQuery` `Airflow` `ggplot2` `Python` `Linux` `Docker` `Bash`
